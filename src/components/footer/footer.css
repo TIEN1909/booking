@@ -1,0 +1,28 @@
+.footer{
+    padding-top: 50px;
+}
+.footer__container{
+
+}
+.footer__list{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 15px;
+}
+.footer__list-item > a{
+    display: block;
+    color: black;
+    line-height: 1.7;
+    transition: all 0.5s ease;
+}
+.footer__list-item >a:hover{
+    color: #001e28;
+    text-decoration: underline;
+}
+.footer__bottom{
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border-top: 1px solid #eee;
+}

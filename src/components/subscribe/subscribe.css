@@ -1,0 +1,41 @@
+.subscribe{
+    padding: 40px 0;
+}
+h1{
+    color: red;
+}
+
+.subscribe_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 0;
+}
+.subscribe_container >h1{
+    color:red;
+    letter-spacing: 5px;
+}
+.subscribe_container >span{
+    color:#001e28;
+    letter-spacing: 1.5px;
+}
+.email{
+    display: flex;
+    gap : 0 10px;
+}
+.input__subscribe{
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    outline:none;
+    width: 250px;
+}
+.input__subscribe::placeholder{
+    letter-spacing: 1.5px;
+}
+.btn__subscribe{
+    background-color: #001e28;
+    color: white;
+    font-size: 15px;
+}

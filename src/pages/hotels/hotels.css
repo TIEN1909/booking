@@ -1,0 +1,5 @@
+.hotels__container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 20px;
+}

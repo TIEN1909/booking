@@ -1,0 +1,93 @@
+.item__hotels-container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 0 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #e2e3e3;
+}
+.item__hotels-wrapper{
+    display: flex;
+    gap : 0 15px;
+}
+.item__hotels-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.item__hotels-image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+.item__hotels-image>img:hover{
+    animation: scale 2s ease-in,scale1 1s ease ;
+}
+@keyframes scale {
+    from {
+        transform: scale(1.3);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes scale1 {
+    from {
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.3);
+    }
+}
+.item__hotels-overview{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.item__hotels-overview>h2{
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.item__hotels-rate{
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+.item__hotels-rate>span{
+    background-color: #001e28;
+    color: white;
+    padding: 3px 7px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.item__hotels-review{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.item__hotels-review>span,.item__hotels-free>span{
+    font-family: 'Times New Roman', Times, serif;
+}
+.item__hotels-free>span{
+    display: block;
+    font-size: 14px;
+    color: red;
+}
+.btn__view-deal{
+    background-color: #001e28;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+.btn__view-deal:hover{
+    background-color: transparent;
+    border: 1px solid #001e28;
+    color: #001e28;
+}

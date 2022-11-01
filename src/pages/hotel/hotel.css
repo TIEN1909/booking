@@ -1,0 +1,48 @@
+.hotel__container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+}
+.hotel__heading{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+.hotel__title{
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+}
+.hotel__title>h1{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.3px;
+}
+.hotel__location{
+    margin-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.btn__booking-now{
+    background-color: #001e28;
+    color: white;
+    font-weight: 500;
+}
+.hotel__desc{
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+}
+.hotel__desc>span{
+    letter-spacing: 1.1px;
+    word-spacing: 1.2px;
+}
+.react-photo-album--photo{
+    transition: all 0.5s ease;
+}
+.react-photo-album--photo:hover{
+    transform: scale(1.1);
+}

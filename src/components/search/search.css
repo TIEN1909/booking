@@ -1,0 +1,50 @@
+.search__container{
+    display: flex;
+    flex-direction: column;
+    background-color: orangered;
+    width: 90%;
+    padding: 20px 10px;
+}
+.search__item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+}
+.search__item,.search__optons-item > label{
+    color:white;
+}
+.search__optons-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.search__options-input{
+    display: flex;
+    height: 30px;
+    padding: 0 10px;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 10px;
+    color: #001e28;
+}
+.search__options-absolute{
+    position: absolute;
+    bottom: 4.7%;
+    width: 355px;
+    
+}
+.btn__search{
+    background-color: #001e28;
+    color: white;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+.btn__search:hover{
+    background-color: transparent;
+    border: 1px solid #001e28;
+    color: #001e28;
+}
